@@ -234,7 +234,7 @@
     "Dites-nous ce que vous cherchez et ce que vous pouvez apporter.": "Tell us what you are looking for and what you can bring.",
     "Merci — votre message est parti. Un membre du bureau vous répond.": "Thank you — your message has been sent. A member of the board will get back to you.",
     "Envoi en cours…": "Sending…",
-    "Merci, votre message est bien parti. Un membre du bureau vous répond sous 48 h.": "Thank you, your message has been sent. A board member will reply within 48 hours.",
+    "Merci, votre message est bien parti. Un membre du bureau vous répond rapidement.": "Thank you, your message has been sent. A board member will get back to you shortly.",
     "L'envoi n'a pas abouti. Écrivez-nous directement à formulut@gmail.com.": "Sending failed. Please email us directly at formulut@gmail.com.",
     "Merci de renseigner votre nom, un e-mail valide et un message.": "Please fill in your name, a valid email and a message.",
 
