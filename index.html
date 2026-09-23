@@ -727,10 +727,28 @@ class Component extends DCLogic {
           return;
         }
         this.setState({ formState: "pending", formMessage: "Envoi en cours…" });
-        clearTimeout(this.sendTimer);
-        this.sendTimer = setTimeout(() => {
-          this.setState({ formState: "success", formMessage: "Merci — votre message est parti. Un membre du bureau vous répond.", nom: "", email: "", message: "" });
-        }, 900);
+        // Envoi réel vers formulut@gmail.com via FormSubmit (le premier envoi déclenche un e-mail d'activation).
+        fetch("https://formsubmit.co/ajax/formulut@gmail.com", {
+          method: "POST",
+          headers: { "Content-Type": "application/json", "Accept": "application/json" },
+          body: JSON.stringify({
+            _subject: "Site Formul'UT — message de " + nom.trim(),
+            _template: "table",
+            _captcha: "false",
+            _replyto: email.trim(),
+            "Nom / entreprise": nom.trim(),
+            "E-mail": email.trim(),
+            "Message": message.trim()
+          })
+        })
+          .then(r => r.json().then(d => ({ ok: r.ok, d })))
+          .then(({ ok, d }) => {
+            if (!ok || String(d.success) !== "true") throw new Error(d.message || "échec");
+            this.setState({ formState: "success", formMessage: "Merci, votre message est bien parti. Un membre du bureau vous répond sous 48 h.", nom: "", email: "", message: "" });
+          })
+          .catch(() => {
+            this.setState({ formState: "error", formMessage: "L'envoi n'a pas abouti. Écrivez-nous directement à formulut@gmail.com." });
+          });
       },
 
       footerColumns: [
