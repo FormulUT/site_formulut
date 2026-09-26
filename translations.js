@@ -208,7 +208,7 @@
     "Financement, pièces, matériaux, logiciels ou usinage : chaque apport se retrouve sur la voiture.": "Funding, parts, materials, software or machining: every contribution ends up on the car.",
     "Emplacement du logo": "Logo placement",
     "Votre logo sur la voiture": "Your logo on the car",
-    "Il n'y a pas de grille tarifaire. L'emplacement et la taille de votre logo sur la monoplace sont fonction de votre engagement — on en discute ensemble.": "There is no price list. Where your logo sits on the car, and how big it is, follows your commitment — we discuss it together.",
+    "L'emplacement et la taille de votre logo sur la monoplace dépendent de votre engagement. Toutes les offres et la grille tarifaire sont détaillées dans notre dossier de partenariat.": "Where your logo goes on the car, and how big it is, depends on your commitment. All offers and the price list are detailed in our partnership pack.",
     "Logo sur la monoplace": "Logo on the car",
     "Logo sur les combinaisons": "Logo on the race suits",
     "Mention sur le site": "Mention on the website",
