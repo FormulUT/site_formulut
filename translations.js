@@ -122,6 +122,7 @@
     "Entrer dans l'écurie": "Getting into the team",
     "Ouvert à tous les étudiants de l'UTC, sans prérequis technique.": "Open to every UTC student, no technical prerequisite.",
     "L'équipe à l'atelier": "The team at the workshop",
+    "L'équipe en team building au Speed Park de Jaux-Compiègne": "The team at a team-building day at Speed Park, Jaux-Compiègne",
     "L'équipe au complet": "The full team",
     "Une écurie, ça se finance": "A racing team has to be funded",
     "Entreprises comme particuliers peuvent soutenir l'écurie. Financement, pièces, matériaux, logiciels : tout part dans la voiture.": "Companies and individuals alike can support the team. Funding, parts, materials, software: it all goes into the car.",
